@@ -79,7 +79,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 2px;
 }
 
 html {
@@ -148,7 +148,7 @@ img {
 .header{
   width: 100%;
   position: fixed;
-  bottom: 5%;
+  top: 93%;
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
@@ -174,7 +174,7 @@ img {
   }
 
   .nav_toggle{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     cursor: pointer;
     
   }
@@ -183,10 +183,10 @@ img {
     color: var(--first-color);
   } 
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .nav_menu{
       position: fixed;
-      bottom: -100;
+      bottom: -100%;
       left: 0;
       width: 100%;
       background-color: var(--body-color);
